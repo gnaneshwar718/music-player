@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+body {
+    background-color: aqua;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'ubantu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 40px;
+    background-color: black;
+    color: white
+}
+
+nav ul li {
+    padding: 0 20px;
+}
+
+.brand img {
+    height: 30px;
+    padding: 0 12px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    height: 419px;
+    background-color: yellowgreen;
+    color: rgb(147, 226, 43);
+    font-family: 'Varela Round', 'sans-serif';
+    width: 80%;
+    margin: 4px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('new.png')
+}
+
+.bottom {
+    position: sticky;
+    height: 90px;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.icons {
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 34px;
+    
+}
+.songItem {
+    display: flex;
+    
+    background-color:rgba(159, 86, 226, 0.329) ;
+    width: 60%;
+    color: rgb(187, 255, 0);
+    margin: 12px 0;
+    justify-content:space-around;
+    align-items:center;
+    border-radius:40px;
+}
+.songItem img{
+    height: 40px;
+    width: 40px;
+    margin: 0 30px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vh;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: rgb(153, 0, 255);
+    }
+  }
